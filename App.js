@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { View, Text } from "react-native";
 
@@ -22,3 +23,25 @@ const quadradosColoridos = () => {
 };
 
 export default quadradosColoridos;
+=======
+import React from 'react';
+import { StyleSheet, Text, SafeAreaView } from 'react-native';
+import Txt from './components/Texto'
+
+export default function App() {
+  return (
+    <SafeAreaView style={styles.container}>
+      <Txt/>
+    </SafeAreaView>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
+>>>>>>> 4dfc56b (questao3)
